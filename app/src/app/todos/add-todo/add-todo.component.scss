@@ -1,0 +1,30 @@
+.add-todo {
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 550px;
+    height: 55px;
+    font-size: 22px;
+    font-family: "Roboto", serif;
+    padding: 5px 10px;
+    outline: none;
+  }
+
+  button {
+    width: 100px;
+    font-size: 22px;
+    background-color: #fff;
+    font-family: "Roboto", serif;
+    border: 1px solid #dadada;
+    outline: none;
+
+    &:hover {
+      background-color: #eaeaea;
+    }
+
+    &:active {
+      background-color: #dadada;
+    }
+  }
+}

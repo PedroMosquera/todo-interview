@@ -1,0 +1,18 @@
+.todo-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 675px;
+  margin: 10px auto;
+
+  li {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #dadada;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+}
